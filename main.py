@@ -45,3 +45,16 @@ if number_1 > number_2 and number_1 > number_3:
     else:
         print(number_1)     # operation if number_1 == number_2 == number_3
 """
+
+
+num_of_meters = float(input("enter length in meters: "))
+unit = input("in what unit do you want to convert meters to? (mile, inch, yard): ")
+
+if unit == "mile":
+    print(num_of_meters * 0.00062137)
+elif unit == "inch":
+    print(num_of_meters * 39.37)
+elif unit == "yard":
+    print(num_of_meters * 1.094)
+else:
+    print("Error")
